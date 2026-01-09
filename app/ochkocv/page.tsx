@@ -9,7 +9,7 @@ export default function ResumePage() {
           <div className="space-y-8 p-8 lg:p-12">
             {/* Header */}
             <div className="space-y-2">
-              <h1 className="text-4xl font-bold tracking-tight text-foreground">
+              <h1 className="text-4xl font-bold tracking-tight text-[#4F46E5] ">
                 Т.Цэцэг-Өлзий Оч-Эрдэнэ
               </h1>
               <p className="text-xl font-medium text-muted-foreground">
@@ -21,23 +21,25 @@ export default function ResumePage() {
             <div className="space-y-3 leading-relaxed text-foreground">
               <p>
                 Fullstack хөгжүүлэлтийн чиглэлээр UI/UX, backend логик,
-                authentication зэрэг үндсэн функцууд дээр ажиллаж, нийт 9+ төсөл
+                authentication зэрэг үндсэн функцүүд дээр ажиллаж, нийт 9+ төсөл
                 (3 Fullstack, 4 Frontend, 2 Backend) хэрэгжүүлсэн. Хөгжүүлэлтийн
                 явцад багийн ажлыг зохион байгуулж, процессыг уялдуулах,
-                чанартай шийдэл гаргахад анхааран ажилласан. Япон улсад сурч,
-                ажилласан туршлага нь техникийн ойлголт, зохион байгуулалтын ур
-                чадварыг ІТ салбарт үр дүнтэй ашиглах суурь болсон.
+                чанартай шийдэл гаргахад анхааран ажилласан. Одоогоор аливаа
+                компанид албан ёсоор ажиллаж байсан туршлагагүй боловч төслүүд
+                дээр тууштай, хариуцлагатайгаар ажиллаж ирсэн бөгөөд цаашид нэг
+                компанид тогтвор суурьшилтай, урт хугацаанд өсөж хөгжих
+                зорилготой.
               </p>
             </div>
 
             {/* Projects */}
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-2xl font-bold text-[#4F46E5] uppercase tracking-wide ">
                 Төслүүд
               </h2>
 
               {/* Project 1 - EventLux */}
-              <div className="space-y-3 border-l-4 border-primary pl-6">
+              <div className="space-y-3 border-l-4 border-[#4F46E5] pl-6">
                 <div>
                   <p className="text-sm font-medium uppercase text-muted-foreground">
                     Full Stack Вэб хөгжүүлэлт
@@ -77,7 +79,7 @@ export default function ResumePage() {
                 </div>
 
                 <a
-                  href="#"
+                  href="https://ochko-turshilt-anqw.vercel.app/"
                   className="inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
                 >
                   Төслийг үзэх
@@ -85,7 +87,7 @@ export default function ResumePage() {
               </div>
 
               {/* Project 2 - Unifind */}
-              <div className="space-y-3 border-l-4 border-primary pl-6">
+              <div className="space-y-3 border-l-4 border-[#4F46E5] pl-6">
                 <div>
                   <p className="text-sm font-medium uppercase text-muted-foreground">
                     Full Stack Вэб хөгжүүлэлт (Төсөл 2)
@@ -113,7 +115,7 @@ export default function ResumePage() {
                       хөгжүүлэлтийн суурь шийдлийг төлөвлөсөн
                     </li>
                     <li>
-                      Axios, Cheerio ашиглан тухайн сургуулийн сайтнаас
+                      Axios, Cheerio ашиглан тухайн сургуулийн сайтаас
                       мэдээллийг шууд fetch хийж, Regex ашиглан боловсруулсан;
                       ингэснээр мэдээллийг гараар оруулах шаардлагыг бууруулсан
                     </li>
@@ -134,7 +136,7 @@ export default function ResumePage() {
                 </div>
 
                 <a
-                  href="#"
+                  href="https://unifind-ruddy.vercel.app/"
                   className="inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
                 >
                   Төслийг үзэх
@@ -144,7 +146,7 @@ export default function ResumePage() {
 
             {/* Work Experience */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-2xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Ажлын туршлага
               </h2>
 
@@ -179,13 +181,18 @@ export default function ResumePage() {
 
             {/* Additional Information */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-2xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Нэмэлт мэдээлэл
               </h2>
 
               <ul className="list-inside list-disc space-y-1.5 leading-relaxed text-foreground">
                 <li>Software Engineering чиглэлээр ажиллах сонирхолтой</li>
                 <li>Шинэ технологи тасралтгүй суралцах хүсэл эрмэлзэлтэй</li>
+                <li>
+                  Япон улсад сурч, ажилласан туршлага маань техникийн ойлголт,
+                  зохион байгуулалтын ур чадварыг ІТ салбарт үр дүнтэй ашиглах
+                  суурь болсон.
+                </li>
               </ul>
             </div>
           </div>
@@ -194,7 +201,7 @@ export default function ResumePage() {
           <div className="space-y-8 bg-muted/30 p-8 lg:p-12">
             {/* Contact */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Холбоо барих
               </h2>
 
@@ -236,7 +243,7 @@ export default function ResumePage() {
 
             {/* Skills */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Ур чадвар
               </h2>
 
@@ -282,7 +289,7 @@ export default function ResumePage() {
 
             {/* Personal Skills */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Хувь хүний ур чадвар
               </h2>
 
@@ -296,7 +303,7 @@ export default function ResumePage() {
 
             {/* Languages */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Хэлний мэдлэг
               </h2>
 
@@ -307,7 +314,7 @@ export default function ResumePage() {
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Япон хэл</span>
-                  <span className="text-muted-foreground">№2 түвшин</span>
+                  <span className="text-muted-foreground">N2 түвшин</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Англи хэл</span>
@@ -318,7 +325,7 @@ export default function ResumePage() {
 
             {/* Education */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold uppercase tracking-wide text-foreground">
+              <h2 className="text-xl font-bold uppercase tracking-wide text-[#4F46E5]">
                 Боловсрол
               </h2>
 
