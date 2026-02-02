@@ -163,12 +163,18 @@ export default function Home() {
           setDraggedItemIndex(index);
           setTodos(newTodos);
         }}
-        onDragEnd={() => setDraggedItemIndex(null)}
-        className={`flex items-center justify-between p-4 rounded-xl border transition-all cursor-move group ${
-          draggedItemIndex === index 
-            ? 'bg-blue-50 border-blue-200 opacity-50 scale-95 shadow-inner' 
-            : 'bg-gray-50 border-gray-100 hover:shadow-md hover:bg-white'
-        }`}
+       onDragEnd={onDragEnd}
+      className={`
+    flex items-center justify-between p-4 rounded-xl border 
+    transition-all duration-300 ease-in-out
+    cursor-grab active:cursor-grabbing active:scale-[1.02] active:shadow-lg
+    group
+    ${
+      draggedItemIndex === index 
+        ? 'bg-blue-50 border-blue-400 opacity-40 scale-95' 
+        : 'bg-white border-gray-100 hover:border-blue-300 hover:shadow-md'
+    }
+  `}
       >
         <div className="flex items-center gap-4">
           {/* Чирэхэд зориулсан дүрс */}
