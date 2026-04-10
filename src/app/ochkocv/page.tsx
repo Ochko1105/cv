@@ -20,7 +20,7 @@ export default function ResumePage() {
             {/* Professional Summary */}
             <div className="space-y-3 leading-relaxed text-foreground">
               <p>
-               Fullstack хөгжүүлэлтийн чиглэлээр UI/UX, backend логик,
+                Fullstack хөгжүүлэлтийн чиглэлээр UI/UX, backend логик,
                 authentication зэрэг үндсэн функцүүд дээр ажиллаж, нийт 9+ төсөл
                 (3 Fullstack, 4 Frontend, 2 Backend) хэрэгжүүлсэн. Хөгжүүлэлтийн
                 явцад багийн ажлыг зохион байгуулж, процессыг уялдуулах,
@@ -63,7 +63,7 @@ export default function ResumePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-foreground">Миний оролцоо</p>
                   <ul className="list-inside list-disc space-y-1.5 leading-relaxed text-foreground">
-          <li>
+                    <li>
                       Төслийн багийг ахалж, route бүтэц, authentication болон
                       хөгжүүлэлтийн суурь шийдлийг тодорхойлсон
                     </li>
@@ -72,14 +72,13 @@ export default function ResumePage() {
                       тогтвортой ажиллагааг хангасан
                     </li>
                     <li>
-                      GitHubд дээр үүссэн merge conflict шийдвэрлэж, багийн кодын
-                      чанарыг хянасан
+                      GitHubд дээр үүссэн merge conflict шийдвэрлэж, багийн
+                      кодын чанарыг хянасан
                     </li>
-                 <li>
-   20 асуудал тодорхойлж, 19-ийг нь шийдвэрлэн хааснаар
-  багийн хөгжүүлэлтийн явцыг тасралтгүй, үр дүнтэй байлгасан
-</li>
-
+                    <li>
+                      20 асуудал тодорхойлж, 19-ийг нь шийдвэрлэн хааснаар
+                      багийн хөгжүүлэлтийн явцыг тасралтгүй, үр дүнтэй байлгасан
+                    </li>
                   </ul>
                 </div>
 
@@ -115,17 +114,18 @@ export default function ResumePage() {
                 <div className="space-y-2">
                   <p className="font-semibold text-foreground">Миний оролцоо</p>
                   <ul className="list-inside list-disc space-y-1.5 leading-relaxed text-foreground">
-                <li>
+                    <li>
                       Багийг ахалж, route бүтэц, authentication болон
                       хөгжүүлэлтийн суурь шийдлийг төлөвлөсөн
                     </li>
                     <li>
-                      Axios, Cheerio ашиглан 
-                      ингэснээр мэдээллийг гараар оруулах шаардлагыг бууруулсан
+                      Axios, Cheerio ашиглан ингэснээр мэдээллийг гараар оруулах
+                      шаардлагыг бууруулсан
                     </li>
-                   <li>
-  User календарьд тэмдэглэл үүсгэж, хугацааг шууд харах боломжийг нэмсэн
-</li>
+                    <li>
+                      User календарьд тэмдэглэл үүсгэж, хугацааг шууд харах
+                      боломжийг нэмсэн
+                    </li>
 
                     <li>
                       Алдаа засвар, navigation болон notification логик
@@ -133,8 +133,8 @@ export default function ResumePage() {
                       ажилласан
                     </li>
                     <li>
-                      GitHub дээр  merge conflict шийдвэрлэж, багийн кодын
-                      чанар, build алдааг хянасан
+                      GitHub дээр merge conflict шийдвэрлэж, багийн кодын чанар,
+                      build алдааг хянасан
                     </li>
                   </ul>
                 </div>
@@ -184,7 +184,6 @@ export default function ResumePage() {
             </div> */}
 
             {/* Additional Information */}
-         
           </div>
 
           {/* Sidebar */}
@@ -248,15 +247,16 @@ export default function ResumePage() {
                 <div>
                   <p className="font-semibold text-foreground">Front-end:</p>
                   <p>
-                    React,  Flutter, React Native, TailwindCSS,
-                    Framer Motion, Shadcn, FLutterFlow ,  Expo
+                    React, Flutter, React Native, TailwindCSS, Framer Motion,
+                    Shadcn, FLutterFlow , Expo
                   </p>
                 </div>
 
                 <div>
                   <p className="font-semibold text-foreground">Back-end:</p>
                   <p>
-                    NodeJS, ExpressJS, NextJS, PusherAPI, Mongoose, Prisma, OpenAPI , GraphQl
+                    NodeJS, ExpressJS, NextJS, PusherAPI, Mongoose, Prisma,
+                    OpenAPI , GraphQl
                   </p>
                 </div>
 
@@ -270,8 +270,8 @@ export default function ResumePage() {
                     Tools & Platforms:
                   </p>
                   <p>
-                    Git, Vercel, Firebase, Render, Copilot, Clerk, Nx monorepo, JWT,
-                    Jest
+                    Git, Vercel, Firebase, Render, Copilot, Clerk, Nx monorepo,
+                    JWT, Jest
                   </p>
                 </div>
               </div>
